@@ -1,0 +1,10 @@
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\bin\Debug\BoolGate.exe.config
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\bin\Debug\BoolGate.exe
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\bin\Debug\BoolGate.pdb
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.csprojResolveAssemblyReference.cache
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.Form1.resources
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.Properties.Resources.resources
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.csproj.GenerateResource.Cache
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.csproj.CoreCompileInputs.cache
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.exe
+C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.pdb
