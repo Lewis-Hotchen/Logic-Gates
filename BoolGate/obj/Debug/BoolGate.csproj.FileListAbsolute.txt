@@ -8,3 +8,10 @@ C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.csproj.Gener
 C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.csproj.CoreCompileInputs.cache
 C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.exe
 C:\Users\LHotchen\source\repos\BoolGate\BoolGate\obj\Debug\BoolGate.pdb
+C:\Users\Lewis\Source\Repos\Logic-Gates\BoolGate\obj\Debug\BoolGate.csprojAssemblyReference.cache
+C:\Users\Lewis\Source\Repos\Logic-Gates\BoolGate\obj\Debug\BoolGate.Form1.resources
+C:\Users\Lewis\Source\Repos\Logic-Gates\BoolGate\obj\Debug\BoolGate.Properties.Resources.resources
+C:\Users\Lewis\Source\Repos\Logic-Gates\BoolGate\obj\Debug\BoolGate.csproj.GenerateResource.cache
+C:\Users\Lewis\Source\Repos\Logic-Gates\BoolGate\obj\Debug\BoolGate.csproj.CoreCompileInputs.cache
+C:\Users\Lewis\Source\Repos\Logic-Gates\BoolGate\obj\Debug\BoolGate.exe
+C:\Users\Lewis\Source\Repos\Logic-Gates\BoolGate\obj\Debug\BoolGate.pdb

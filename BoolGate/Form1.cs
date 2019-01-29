@@ -15,11 +15,11 @@ namespace BoolGate {
         bool x, y, z;
         bool res;
 
-        public delegate bool ExecuteCircuit(bool x, bool y, bool z);
-        public delegate bool ExecuteFlip(bool flip);
+        public delegate bool ExecuteGate(bool x, bool y, bool z);
+        public delegate bool ExecuteCircuit(ExecuteGate e);
         public List<GATES> gateTypes;
+        ExecuteGate eg;
         ExecuteCircuit ec;
-        ExecuteFlip ef;
 
 
         public bool executeGate(bool x, bool y, GATES.GATETYPE gatetype) {
@@ -113,24 +113,25 @@ namespace BoolGate {
                     break;
             }
             if(cmbGate2.SelectedItem != null) {
-switch (cmbGate2.SelectedItem.ToString()) {
+
+            switch (cmbGate2.SelectedItem.ToString()) {
                 case "AND":
-                    ec += gates.AND;
+                    eg += gates.AND;
                     break;
                 case "OR":
-                    ec += gates.OR;
+                    eg += gates.OR;
                     break;
                 case "NAND":
-                    ec += gates.NAND;
+                    eg += gates.NAND;
                     break;
                 case "NOR":
-                    ec += gates.NOR;
+                    eg += gates.NOR;
                     break;
                 case "XOR":
-                    ec += gates.XOR;
+                    eg += gates.XOR;
                     break;
                 case "XNOR":
-                    ec += gates.XNOR;
+                    eg += gates.XNOR;
                     break;
                 default:
                     lblOutput.Text = "Invalid!";
@@ -138,7 +139,7 @@ switch (cmbGate2.SelectedItem.ToString()) {
             }
             }
             
-            res = ec.Invoke(x, y, z);
+            res = eg.Invoke(eg(x, y, z));
             lblOutput.Text = res.ToString();
         }
     }
